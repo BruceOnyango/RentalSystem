@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color:#fff;
+  /* -ms-overflow-style: none;  /* IE and Edge */
+  /* scrollbar-width: none;  Firefox */ 
+  /* font-family: 'Caveat', cursive;
+  font-size: 1.3rem; */
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* ::-webkit-scrollbar {
+  display:none;
+} */
+:root {
+  --main-color: #23bb37;
+  --light-color: #666;
+  --light-bg: #eee;
+  --white: #fff;
+  --black: #303030;
+  --border: 0.1rem solid var(--light-color);
+  --box-shodow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.app {
+  display: flex;
+  position: relative;
+}

@@ -1,0 +1,13 @@
+.vbutton{
+    border: none;
+    font-size: 1.2rem;
+    padding: 2px;
+    border-radius: 4px;
+    margin: 5px;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}

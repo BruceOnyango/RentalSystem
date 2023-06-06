@@ -1,0 +1,15 @@
+.chat_list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+    border: 1px solid rgb(202, 198, 198);
+    border-radius: 8px;
+    width: 100vh;
+    margin: 0 auto;
+    text-align: center;
+}
+.finput{
+    border: 1px solid rgb(158, 154, 154); 
+}

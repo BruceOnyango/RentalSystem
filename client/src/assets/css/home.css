@@ -1,0 +1,25 @@
+.container{
+    height: 100vh !important;
+    width: 100vw !important;
+    position: relative !important;
+    background-image: url('../images/pic3.jpg') !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+    position: relative !important;
+    background-position: center !important;
+    background-size: cover !important;
+    min-width: 100% !important;
+}
+/* h5{
+    position: absolute;
+    top: 30%;
+    right: 35vw;
+    width: fit-content;
+    background-color: white;
+    border-radius: 14px;
+    color:#3EADCF;
+    font-size: 2rem;
+    padding: 3vh 5vw;
+    text-transform: capitalize;
+    letter-spacing: 0.2em;
+} */

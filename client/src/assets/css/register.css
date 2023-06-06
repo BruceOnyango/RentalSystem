@@ -1,0 +1,56 @@
+.register-form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-form{
+    border: 1px solid black;
+    border-radius: 14px;
+    padding: 30px 30px 30px 30px;
+    font-size: 1em;
+    width: 400px;
+    letter-spacing: .2em;
+    text-align: center;
+}
+.register-page h5{
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: .1em;
+    text-transform: capitalize;
+}
+label{
+    padding-bottom: 30px;
+}
+input{
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 10px 10px;
+    color:black;
+    background: transparent;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+.register-btn{
+    width: 80px;
+    height: 40px;
+    font-weight: 600;
+    background-color: #4cbb17;
+    color: black;
+    border: none;
+}
+.register-btn:hover{
+    background-color: transparent;
+    color:black;
+    cursor: pointer;
+}
+.login-link{
+    margin: 30px;
+    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    color:#4cbb17;
+}
+.login-link:hover{
+    color:black;
+}

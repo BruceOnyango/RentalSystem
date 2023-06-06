@@ -1,0 +1,19 @@
+In case of security errors do,
+Windows Key + R
+Type cmd and paste the command inside
+"C:/Program Files/Google/Chrome/Application/chrome.exe" --user-data-dir="C:/Chrome dev session" --disable-web-security  
+
+Open Emali from VS code
+//Run server
+cd server 
+npm i 
+npm start
+
+//To start frontend
+cd client 
+npm i 
+npm run start
+
+
+
+INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;

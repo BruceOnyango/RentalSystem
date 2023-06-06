@@ -1,0 +1,11 @@
+.chat_lists {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+    border-radius: 8px;
+    width: 100vh;
+    margin: 0 auto;
+    text-align: center;
+}
