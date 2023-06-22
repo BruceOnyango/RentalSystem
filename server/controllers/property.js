@@ -105,7 +105,7 @@ export const getApprovedProperties = (req, res) => {
   })
 };
 export const getApprovedPropertiesAvailable = (req, res) => {
-  const q = "SELECT * FROM property WHERE valuated = 'Approved' AND available='yes' "
+  const q = "SELECT * FROM property WHERE valuated = 'Approved' "// available='yes' "
   db.query(q,(err,data)=>{
     if(err) res.json(err)
     return res.json(data)

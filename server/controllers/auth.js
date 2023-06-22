@@ -61,13 +61,14 @@ export const register = (req, res) => {
       const token = jwt.sign({ user_id: data[0].user_id }, "jwtkey");
       const { password, ...other } = data[0];
   
-      res
-      .cookie("access_token", token, {
+      res.cookie("access_token", token, {
           httpOnly: true,
         })
         .status(200)
         .json(other);
+        
     });
+    
   };
 
   export const logout = (req, res) => {
